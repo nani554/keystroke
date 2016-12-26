@@ -1,0 +1,50 @@
+html {
+	font-size: 10px;/* unit is in px so that we can use rem unit in body*/
+	background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;/*background-img background-position background-repeat*/
+	background-size: cover;
+}
+html,body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+
+}
+.keys{
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	
+
+
+}
+.key{
+	margin: 10px;
+	padding: 5px;
+	border: 5px solid black;
+	font-size: 1.5rem;
+	transition: all 0.07s;
+	background-color: rgba(0,0,0,0.5);
+	width: 100px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.playing {
+	border-color: yellow;
+	box-shadow: 0 0 5px yellow;
+	transform: scale(1.5);
+
+}
+kbd{
+	
+	font-size: 5rem;
+}
+.sound{
+	text-transform: uppercase;
+	display: block;
+	color: yellow;
+}
