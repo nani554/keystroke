@@ -1,8 +1,8 @@
 html {
 	font-size: 10px;/* unit is in px so that we can use rem unit in body*/
-	background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;/*background-img background-position background-repeat*/
+	background: url("seabag.jpg") bottom;/*background-img background-position:bottom ; background-repeat:center*/
 	background-size: cover;
-}
+}/*img=http://i.imgur.com/b9r5sEL.jpg*/
 html,body{
 	font-family: sans-serif;
 	margin: 0px;
